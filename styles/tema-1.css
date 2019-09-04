@@ -1,0 +1,158 @@
+body {
+    background-color: whitesmoke;
+    color: rgb(29, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+a:hover {
+    color: blue;
+    background-color:antiquewhite
+
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.bg-cadet{
+    background-color:cadetblue;
+}
+
+.bg-lightgrey {
+    background-color: lightslategray
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu-utama ul {
+background-color: cadetblue;
+border-radius: 4px;
+box-shadow:
+0 3px 5px -1px rgba(0,0,0,0.2),
+0 6px 10px 0 rgba(0,0,0,0.14),
+0 1px 18px 0 rgba(0,0,0,0.12);
+}
+
+.menu-utama li {
+    display: inline-block;
+}
+
+.menu-utama a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+}
+
+.menu-utama a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.menu-utama .active {
+    background-color: aliceblue;
+    color: black;
+    cursor: default
+}
+
+.jumbotron {
+    background-color: whitesmoke;
+    border: solid 1px grey;
+    border-radius: 8px;
+}
+
+.jumbotron h1 {
+    margin: 20px 20px;
+}
+
+.jumbotron p {
+    margin: 20px 20px;
+}
+
+.copyright p {
+    font-size: 14px;
+    color:cadetblue
+}
+
+/* Footer Box: BEGIN */
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+.footer-box  {
+    width: 33%;
+    float: left;
+}
+
+.footer-box ul {
+    padding: 0;
+}
+
+.footer-box li {
+    padding: 2px 0px;
+}
+.footer-box img {
+    vertical-align: middle;
+}
+
+.footer-box h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Footer Box:  END */
+
+/* Box: BEGIN */
+
+.box2-left {
+    width: 49.5%;
+    float: left;
+}
+
+.box2-right {
+    width: 49.5%;
+    float: right;
+}
+
+.box-heading {
+    border: solid 1px;
+    border-radius: 5px 5px 0 0; /* Top-Left Top-Right Bottom-left Bottom-Right */
+    padding: 15px 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.box-heading h5 {
+    margin: 0px; 
+}
+
+.box-content {
+    border: solid 1px;
+    padding: 10px 0px;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.box-content p {
+    margin: 10px 20px;
+}
+.box-fixed {
+    height: 90px;
+}
+/* Box: END */
