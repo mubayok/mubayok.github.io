@@ -18,17 +18,20 @@ a:hover {
 }
 
 a:visited {
-    color: lightskyblue;
+    color: #ffffff;
 }
 
 .container {
-    height: auto;
-    background-color:lightgrey;
     margin: 10px auto;
+    overflow: auto;
     width: 90%;
 }
 .bg-cadet{
     background-color:cadetblue;
+}
+
+.bg-lightgrey {
+    background-color: lightslategray
 }
 
 .logo {
@@ -57,12 +60,13 @@ box-shadow:
 
 .menu-utama a:hover {
     background-color: aliceblue;
-    color: brown;
+    color: black;
 }
 
 .menu-utama .active {
     background-color: aliceblue;
-    color: rgb(26, 141, 170);
+    color: black;
+    cursor: default
 }
 
 .jumbotron {
@@ -81,13 +85,15 @@ box-shadow:
 
 .copyright p {
     font-size: 14px;
-    color: brown
+    color:cadetblue
 }
 
 /* Footer Box: BEGIN */
 
 .container-full {
-    background-color: blueviolet;
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
 }
 .footer-box  {
     width: 33%;
@@ -126,7 +132,6 @@ box-shadow:
 
 .box-heading {
     border: solid 1px;
-    background-color: lightskyblue;
     border-radius: 5px 5px 0 0; /* Top-Left Top-Right Bottom-left Bottom-Right */
     padding: 15px 20px;
     margin: 0;
@@ -144,7 +149,10 @@ box-shadow:
     padding: 10px 0px;
 }
 
+.box-content p {
+    margin: 10px 20px;
+}
 .box-fixed {
-    height: 190px;
+    height: 90px;
 }
 /* Box: END */
